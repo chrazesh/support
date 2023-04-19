@@ -1,0 +1,13 @@
+   add
+   update
+   delete
+   search
+   sorting
+   default date
+   auto date converting(ad to bs and bs to ad)
+   auto expiry date
+   payment gateway
+   email sending
+   
+
+ 

@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap'); 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+h2 {
+  padding: 20px;
+  font-style: italic;
+  /* color: rgb(10, 107, 235); */
+  background-color: #f2f2f2;
+  margin-bottom: 0px;
+}
+.fromTo{
+  border-bottom: 1px solid rgb(224, 214, 214);
+}
+
+th,
+td {
+
+  font-size: 13px;
+
+}
+
+
+.username,
+.password,
+.name,
+.email,
+.staff,
+.mobile,
+.cpassword
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  bottom: 15px;
+  width:285px;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  background-color: white;
+  margin: 20px;
+  width: 530px;
+  height:700px;
+  box-shadow: 0px 0px 50px 8px grey;
+  border-radius: 10px;
+}
+
+.fa-user,
+.fa-key,
+.fa-envelope{
+    color:black;
+  position: absolute;
+  bottom: 12px;
+  left: 7px;
+  font-size: 20px;
+}
+
+.password label,
+.username label,
+.name label,
+.email label,
+.mobile label,
+.cpassword label,
+.staff label{
+  font-weight: 500;
+}
+.name input,
+.username input,
+.email input,
+.mobile input,
+.password input, 
+.cpassword input,
+.selectize-input
+{
+  padding: 8px 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.loginbutton {
+  padding: 8px 102px !important;
+  /*position: relative;*/
+  /*bottom: 70px;*/
+}
+
+.installationmain,
+.inquirymain,
+.addmain,
+.update1main,
+.update2main,
+.supportmain,
+.updatemain,
+.demomain,
+.loginmain {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.installationform,
+.inquiryform,
+.addform,
+.update1form,
+.update2form,
+.update3form,
+.supportform,
+.updateform,
+.demoform {
+  background-color: #f2f2f2;
+  padding: 12px;
+  margin: 3px;
+  width: 100vw;
+  border-radius: 10px;
+}
+
+.installationbutton button,
+.addbutton button,
+.inquirybutton button,
+.updatebutton button,
+.update1button button,
+.update2button button,
+.supportbutton button,
+.demobutton button {
+  color: black;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-weight: 600;
+  margin: 2px;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+.installationbutton a,
+.inquirybutton a,
+.addbutton a,
+.supportbutton a,
+.update1button a,
+.update2button a,
+.updatebutton a,
+.demobutton a {
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-weight: 600;
+  margin: 2px;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+.inquiryform label,
+.supportform label,
+.installationform label,
+.addform label,
+.updateform label,
+.update1form label,
+.update2form label,
+.demoform label {
+  font-weight: 500;
+}
+
+.addbutton,
+.update1button,
+.updatebutton,
+.inquirybutton,
+.demobutton,
+.installationbutton,
+.update2button,
+.supportbutton {
+  text-align: center;
+}
+
+
+
+
+.fa-magnifying-glass {
+  padding: 10px;
+  border-radius: 0px;
+}
+
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  background-color: #f2f2f2;
+  height: auto;
+
+}
+
+.heading a {
+  text-decoration: none;
+  background-color: #0d6efd;
+  color: white;
+  padding: 8px 15px;
+  margin-right: 20px;
+}
+
+.bnone {
+
+  font-size: 17px;
+  color: black;
+  margin: 0px 5px;
+}
+
+.modal-header,
+.modal-footer {
+  background-color: #f2f2f2;
+
+}
+
+#DataTables_Table_0_info,
+#DataTables_Table_1_info,
+#DataTables_Table_2_info,
+#DataTables_Table_3_info {
+  display: none;
+}
+
+.dataTables_wrapper {
+  margin: 5px;
+}
+
+.clstrCustomer,
+.clstrInquiry,
+.clstrInstallation,
+.clstrSupport,
+.clstrDemo {
+  cursor: pointer;
+}
+
+.modal+.modal {
+  z-index: 1080 !important;
+}
+
+.modal-backdrop+.modal-backdrop {
+  z-index: 1070 !important;
+
+}
+
+#ui-datepicker-div {
+  width: 201px;
+  height: 215px;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.ui-datepicker .ui-datepicker-header {
+  padding: 1px !important;
+}
+
+.ui-datepicker .ui-datepicker-title {
+  line-height: 1em !important;
+}
+
+#ndp-nepali-box {
+  height: 215px;
+  width: 198px;
+  font-size: 12px;
+}
+
+.fa-arrow-right {
+  /* font-weight: 500; */
+  margin-left: 4px;
+  font-size: 17px;
+  padding: 5px 18px;
+  cursor: pointer;
+}
+.support3{
+ /*padding:20px; */
+ background-color:#f2f2f2;
+ display:flex;
+ justify-content:center;
+}
+.dateFromTo, .supportBy, .companyName{
+    padding:35px 10px;
+    display:flex;
+}
+/*#loading{*/
+/*    position:fixed;*/
+/*    width:100%;*/
+/*    height:100vh;*/
+/*    background-image:url('preloader.php');*/
+/*    z-index:99999;*/
+    
+/*}*/
+
+
+
+ 
